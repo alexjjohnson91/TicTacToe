@@ -9,12 +9,14 @@ char** playerTurn(char**);
 char** initBoard(char**);
 char** changeBoard(char**, char, unsigned);
 char** cpuTurn(char**);
+char** cpuTurnEasy(char**);
+char** cpuTurnHard(char**);
 bool isGameOver(char**, char);
 void gameLoop(char**);
 void playerWin();
 void cpuWin();
 bool spotTaken(char**, unsigned);
-bool tieCheck();
+bool tieCheck(char**);
 void tieGame();
 
 #endif
