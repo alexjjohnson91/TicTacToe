@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "../inc/pch.hpp"
 
 int main() {
     srand(time(0));

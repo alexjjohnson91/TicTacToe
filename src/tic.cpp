@@ -1,4 +1,4 @@
-#include "pch.h"
+#include "../inc/pch.hpp"
 
 #define WIDTH 3
 #define PLAYER_MARK 'X'
